@@ -1,0 +1,114 @@
+.nav-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 3rem;
+    background-color: #092236;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(241, 255, 255);
+
+}
+.nav-contain a{
+    color: rgb(241, 255, 255);
+
+}
+.left-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title-gradient{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #FFF6E6;
+  background-image: linear-gradient(30deg, #fff8ec 28%, #3b75cc 100%);
+  line-height: 1;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.right-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.body-intro {
+    padding: 4rem 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(248, 255, 247);
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-left{
+    display: flex;
+    padding: 5rem;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+.intro-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.submit-button{
+    padding: 1rem 2rem;
+    background-color: rgb(52, 77, 107);
+    color: rgb(248, 255, 247);
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.intro-right{
+    flex: 1;
+}
+.helper-image{
+    width: 100%;
+}
+
+
+
+/* WORK ORDER FORM  */
+.form-page-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+   background-color: #253441;
+}
+.form-contain {
+    padding: 4rem 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(236, 254, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* From https://css.glass */
+background: rgba(39, 73, 100, 0.28);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.9px);
+-webkit-backdrop-filter: blur(8.9px);
+border: 1px solid rgba(255, 255, 255, 0.73);
+}
